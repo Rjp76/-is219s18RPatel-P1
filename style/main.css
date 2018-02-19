@@ -103,14 +103,32 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
-#nav_menu ul {
-	display:inline;
-	float:left;
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
 }
-#nav_menu ul li a {
+.slicknav_menu {
+	display: none;
 }
 
+/*Mobile Stuff*/
+@media only screen and (max-width: 767px) {
+	header img { float: none; }
+	header { text-align: center; }
+	section {
+		float: none;
+		width: 95%;                     
+	}
 
+	#nav_menu {
+		display: none;
+	}
+	.slicknav_menu {
+		display: block;
+		background-color: #232323 !important;
+	}
+}
 
 /* mobile portrait to mobile landscape */
 @media only screen and (max-width: 479px) {
