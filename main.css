@@ -24,17 +24,25 @@ main{
 	background-image:url("../img/bgtexture.png");
 	box-shadow:-3px 4px 15px 3px #3c3c3c;
 	}
-.col-md-3{
-	background-color:#B892F4;
-	max-width:33.3333%;
-	margin:20px;
-	font-family:'Roboto', sans-serif;
+aside{
+	position:fixed;
+	text-align: left;
+	border: 3px solid #7230AB;
+	margin-left:200px;
+	margin-bottom:100px;
+	padding:20px;
+	background:#A971DA;
+	box-shadow:-3px 4px 15px 3px #3c3c3c;
+	}
+div.sidebar{
+	position:relative;
+	right:200px;
+	bottom:100px;
+	width:500px;
+	margin-right:-100px;
+	font-color:pink;
+	background-color:purple;
 }
- .sidebar img{
- 	padding:10px;
- 	margin:20px;
- 	
- }
 
 header {
 	width:100%;
@@ -45,25 +53,10 @@ header {
 header img{
 	padding: 10px;
 	margin: 10px; 
-}
-aside img{
-	float:right;
-	position:relative;
-	z-index:-1;
-	bottom:650px;
+
 }
 #moving{
 	bottom:600px;
-}
-footer {
-	background-color: #424242;
-	clear: both;
-
-}
-footer p {
-	text-align: center;
-	color: white;
-	padding: 1em 0;
 }
 
 /*Mobile Stuff*/
@@ -75,10 +68,6 @@ footer p {
 		width: 95%;                     
 	}
 
-.slicknavbar {
-		display: block;
-		background-color: #232323 !important;
-	}
 }
 
 /* mobile portrait to mobile landscape */
