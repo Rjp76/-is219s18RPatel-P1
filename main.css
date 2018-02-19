@@ -14,9 +14,11 @@ body {
 
 #sidebar{
    text-align:left;
+   border: 3px solid #9F6CF0;
     position:fixed;
     margin-left:-250px;
     margin-top:50px;
+	border: 3px solid #9F6CF0;
     width:220px;
 	}
 
@@ -25,11 +27,6 @@ header {
 	padding: 50px 0 30px 10px;
 	background-color:#424242;
 	background-image:url("../images/bgtexture.png");
-}
-header img{
-	padding: 10px;
-	margin: 10px; 
-
 }
 main{
 	position:relative;
