@@ -22,7 +22,7 @@ main{
 	border: 3px solid #232323;
 	margin-left:150px;
 	margin-bottom:100px;
-	padding:20px;
+	padding:30px 0 0 35px;
 	background-color:rgba(255, 255, 255, .89);
 	background-image:url("../images/bgtexture.png");
 	box-shadow:-3px 4px 15px 3px #3c3c3c;
@@ -33,7 +33,7 @@ main{
 	color:#885CCE;		
 	}
 	main i {
-		color:#999999;
+		color:#424242;
 	}
 main h4{
 	font-weight: bold;
@@ -48,7 +48,7 @@ header {
 	background-image:url("../images/bgtexture.png");
 }
 .sidebar{
-	margin:100px 50px 100px -200px;
+	margin:100px 50px 100px -100px;
 	max-width: 500px;
 	max-height: 160px;
 	width:100%;
@@ -57,6 +57,7 @@ header {
 	background-color:#B892F4;
 	background-image:url("../images/bgtexture.png");
 	box-shadow:-3px 4px 15px 3px #3c3c3c;
+	position:relative;
 }
 .sidebar img{
 	border-radius: 50%;
@@ -151,12 +152,10 @@ footer p {
 /* mobile portrait to mobile landscape */
 @media only screen and (max-width: 479px) {
 	body { font-size: 90%; }
+		.sidebar{
+		display:none;		
+	}
 main{
 	width:95%;
 }
-}
-@media only screen and (max-width: 700px) {
-	.sidebar{
-		display:none;
-	}
 }
