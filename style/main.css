@@ -132,7 +132,7 @@ footer p {
 }
 
 /*Mobile Stuff*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 775px) {
 	header img { float: none; }
 	header { text-align: center; }
 	section {
