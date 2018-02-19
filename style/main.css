@@ -149,7 +149,7 @@ footer p {
 }
 
 /* mobile portrait to mobile landscape */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
 	body { font-size: 90%; }
 	.sidebar{
 		display:none;
