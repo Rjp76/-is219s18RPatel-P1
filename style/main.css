@@ -139,6 +139,13 @@ footer p {
 		float: none;
 		width: 95%;                     
 	}
+	main{
+	width:95%;
+}
+	.sidebar{
+		display:none;		
+	}
+
 
 	#nav_menu {
 		display: none;
@@ -152,7 +159,7 @@ footer p {
 /* mobile portrait to mobile landscape */
 @media only screen and (max-width: 479px) {
 	body { font-size: 90%; }
-		.sidebar{
+	.sidebar{
 		display:none;		
 	}
 main{
