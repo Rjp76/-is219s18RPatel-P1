@@ -12,6 +12,7 @@ body {
 	background-image:url("../images/bgtexture.png");
 }
 main{
+	font-family:Arial, Helvetica, sans-serif;
 	position:relative;
 	max-width:800px;
 	max-height: 500px;
@@ -28,6 +29,17 @@ main{
 	overflow: scroll;
 	overflow-x:hidden;
 	}
+	main b{
+	color:#885CCE;		
+	}
+	main i {
+		color:#999999;
+	}
+main h4{
+	font-weight: bold;
+	font-family:'Roboto', sans-serif;
+	color:#424242;
+}
  
 header {
 	width:100%
