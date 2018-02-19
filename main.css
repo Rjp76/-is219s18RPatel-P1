@@ -41,6 +41,7 @@ section{
 }
 #nav_menu ul li {
 	float: left;
+	width:20%;
      
 }
 #nav_menu ul li a {
@@ -54,12 +55,4 @@ section{
 }
 #nav_menu a.current {
 	color: #007180;
-}
-#nav_menu ul li:hover > ul {
-	display: block;
-}
-#nav_menu > ul::after {
-    content: "";
-    clear: both;
-    display: block;
 }
