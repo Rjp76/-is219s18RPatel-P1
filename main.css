@@ -1,7 +1,7 @@
 *{
 	margin:0;
 	padding:0;
-	}
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
@@ -11,8 +11,6 @@ body {
 	background-color:#999999;
 	background-image:url("../images/bgtexture.png");
 }
-
-
 header {
 	width:100%;
 	padding: 50px 0 30px 10px;
@@ -29,4 +27,39 @@ main{
 	background-image:url("../images/bgtexture.png");
 	box-shadow:-3px 4px 15px 3px #3c3c3c;
 	}
+aside{
 
+}
+section{
+
+}
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+     
+}
+#nav_menu ul li a {
+    display: block;
+    text-align: center;
+    padding: .5em 0;
+    text-decoration: none;
+    background-color: #232323;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu a.current {
+	color: #007180;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
